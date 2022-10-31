@@ -113,7 +113,7 @@ button:hover {
 }
 
 .button-add-to-cart::before {
-  content: url(../images/icon-cart.svg);
+  content: url(../images/icon-cart.svg) / "Shopping cart";
   vertical-align: middle;
   padding-top: 0.1em;
   padding-right: 0.7em;
