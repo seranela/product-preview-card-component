@@ -108,7 +108,6 @@ button:hover {
 }
 
 .product-price-original {
-  text-decoration: line-through;
   color: var(--color-neutral-dark-gray-blue);
 }
 
