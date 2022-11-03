@@ -110,13 +110,14 @@ button:hover {
 }
 
 .product-price-discount {
+  margin: 0;
   font-size: 2em;
   color: var(--color-primary-dark-cyan)
 }
 
 .product-price-original {
+  margin: 0;
   font-size: 0.85em;
-  color: var(--color-neutral-dark-gray-blue);
 }
 
 .button-add-to-cart {
@@ -124,6 +125,18 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 0.7em;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 @media (min-width: 576px) {
